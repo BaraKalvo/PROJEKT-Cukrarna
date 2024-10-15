@@ -66,12 +66,17 @@ h3 {
 	font-size: 18px;
 }
 
+h2,
+h3 {
+	color: #3e606b;
+}
+
 .centrovany {
 	max-width: 1100px;
 	margin: 0 auto;
 }
 
-header {
+.obsahhlavicka {
 	padding: 30px 0;
 	display: flex;
 	justify-content: space-between;
@@ -94,20 +99,13 @@ header {
 	padding: 0 20px;
 }
 
-.tlacitkoObj {
+.menu a:hover,
+.menu a:active,
+.menu a:focus {
+	color: white;
 	background-color: #f195b2;
 	padding: 10px 15px;
 	border-radius: 20px;
-}
-
-.tlacitkoObj a {
-	color: white;
-}
-
-.tlacitkoObj:hover,
-.tlacitkoObj:active,
-.tlacitkoObj:focus {
-	background-color: #d2567d;
 }
 
 .hero {
@@ -115,8 +113,11 @@ header {
 	background-image: url(images/cupcake.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding: 80px 0;
 } 
+
+.obsahhero {
+	padding: 80px 0;
+}
 
 .hero h1,
 .hero p {
@@ -131,4 +132,40 @@ header {
 	font-size: 24px;
 	font-style: italic;
 	margin-bottom: 0;
+}
+
+.obsahvitejte {
+	padding: 80px 0;
+	display: flex;
+	align-items: center;
+}
+
+.vlevovitejte {
+	padding-right: 30px;
+}
+
+.vlevovitejte h2 {
+	margin-top: 0;
+}
+
+.tlacitkopadd {
+	padding-top: 30px;
+}
+
+.tlacitkoVyr {
+	background-color: #f195b2;
+	padding: 15px 40px;
+	border-radius: 30px;
+	text-decoration: none;
+	color: white;
+}
+
+.tlacitkoVyr:hover,
+.tlacitkoVyr:active,
+.tlacitkoVyr:focus {
+	background-color: #d2567d;
+}
+
+.vpravovitejte img{
+	border-radius: 5px;
 }
