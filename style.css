@@ -96,7 +96,7 @@ h3 {
 
 .menu a {
 	text-decoration: none;
-	padding: 0 20px;
+	padding: 0 15px;
 }
 
 .menu a:hover,
@@ -168,4 +168,53 @@ h3 {
 
 .vpravovitejte img{
 	border-radius: 5px;
+}
+
+.nabidka {
+	background-color: #f0f0f0;
+}
+
+.obsahnabidka {
+	padding: 80px 0;
+}
+
+/*.seznamproduktu {
+	display: flex;
+	
+}
+
+
+.produkt1,
+.produkt2,
+.produkt3,
+.produkt4 {
+	display: flex;
+	flex-direction: column;
+	
+}
+*/
+
+.obsahpeceni {
+	padding: 80px 0;
+	display: flex;
+	align-items: center;
+}
+
+.vlevopeceni img {
+	border-radius: 5px;
+}
+
+.vpravopeceni {
+	padding-left: 30px;
+}
+
+.vpravopeceni h2 {
+	margin-top: 0;
+}
+
+footer {
+	background-color: #303339;
+	color: white;
+	padding: 30px 0;
+	text-align: center;
 }
